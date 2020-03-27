@@ -26,7 +26,7 @@ class Doctor
   end
 
   def patients
-    self.new_appointment(date, patient)
+    self.new_appointment(appointment, patient)
     self.patients.include?patient
     
     
